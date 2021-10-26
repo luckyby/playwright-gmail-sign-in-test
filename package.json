@@ -1,0 +1,19 @@
+{
+  "name": "first-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "npx playwright test gmail --debug",
+    "test": "npx playwright test gmail"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.16.0"
+  },
+  "dependencies": {
+    "playwright": "^1.16.0"
+  }
+}
