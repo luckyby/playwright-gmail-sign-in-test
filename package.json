@@ -1,10 +1,10 @@
 {
-  "name": "first-test",
+  "name": "playwright-gmail-sign-in-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "npx playwright test gmail --debug",
+    "debug": "npx playwright test google --debug",
     "test": "npx playwright test gmail"
   },
   "keywords": [],

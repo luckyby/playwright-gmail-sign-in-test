@@ -12,7 +12,6 @@ test('GMail signIn', async({page})=>{
     await elem2.type(user_password);
     await page.click('[id="passwordNext"] [type="button"]');
 
- //=================gmail inbox page=========================
     const wright_button = await page.locator('[id=":32"]')
     await expect(wright_button).toHaveText('Написать');
 })
